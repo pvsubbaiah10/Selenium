@@ -16,6 +16,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class ShadowDOM {
 
 	public static void main(String[] args) {
+		
+		// Shadow Dom supports only cssSelectors, normal xpaths won't work.
+		
 		WebDriverManager.chromedriver().setup();
 
 		WebDriver driver = new ChromeDriver();
