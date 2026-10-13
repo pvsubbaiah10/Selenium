@@ -5,11 +5,13 @@ public class StringsOPS {
 	public static void main(String[] args) {
 		
 		// 1
+		
 		/*
 		 * String s1 = "Hello"; String s2 = "Hello";
 		 * 
 		 * System.out.println(s1 == s2); System.out.println(s1.equals(s2));
 		 */
+		 
 		
 		
 		//2 
@@ -77,6 +79,7 @@ public class StringsOPS {
 		
 		//9 .intern()
 		
+		
 		/*
 		 * String s1 = "Hello";
 		 * 
@@ -87,6 +90,7 @@ public class StringsOPS {
 		 * s2 = s2.intern();
 		 * 
 		 * System.out.println(s1 == s2); System.out.println(s1.equals(s2));
+		 * 
 		 */
 		//10 NULL
 		
@@ -119,11 +123,13 @@ public class StringsOPS {
 		// 13
 		
 		  
+		
 		  String s1 = new String("Hello");
-		  String s2 = s1 ; 
+		  String s2 = s1 ;
 		  
 		  System.out.println(s1 == s2); 
 		  System.out.println(s1.equals(s2));
+		 
 		 
 		
 	}

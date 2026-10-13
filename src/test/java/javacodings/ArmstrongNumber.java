@@ -67,7 +67,9 @@ public class ArmstrongNumber {
 		  
 		  }
 		  
-		  if (sum == n) { System.out.println(n); }
+		  if (sum == n) {
+			  System.out.println(n);
+			  }
 		  
 		  }
 		 

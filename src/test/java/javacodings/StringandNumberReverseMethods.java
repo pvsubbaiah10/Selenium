@@ -92,7 +92,7 @@ public class StringandNumberReverseMethods {
 
 	// **** Reverse String Without Changing Special Characters
 
-	String str1 = "a,b$c%e"; // "c,b$a"
+	String str1 = "a,b$c%e"; // e,c$b%a
 	
 	
 	char arr3[]=str1.toCharArray();

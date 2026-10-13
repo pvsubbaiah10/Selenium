@@ -3,6 +3,7 @@ package Strings;
 public class FirstRepeatingandsecondcharcters {
 
 	public static void main(String[] args) {
+
 		String str = "programming";
 
 		int c = 0;
@@ -14,7 +15,7 @@ public class FirstRepeatingandsecondcharcters {
 				if (str.charAt(i) == str.charAt(j)) {
 					c++;
 
-					if (c == 1) { // if you want second/third enter c ==2 or 3.
+					if (c == 2) { // if you want second/third enter c ==2 or 3.
 						System.out.println(str.charAt(i));
 						return;
 					}
@@ -24,7 +25,6 @@ public class FirstRepeatingandsecondcharcters {
 			}
 
 		}
-
 	}
 
 }
